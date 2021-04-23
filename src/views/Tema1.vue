@@ -84,7 +84,7 @@
       .row
         .col-1
           figure.d-none.d-xl-block.d-xxl-block
-            img(src='@/assets/curso/img4.svg', alt='Texto que describa la imagen' style='width: 100%')
+            img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
         .col-11
           .h5 Ejemplo: el cliente pide que se desarrolle un programa de computadora que le solicite al usuario un número, luego el sistema debe mostrar en pantalla el número digitado.
     p.mt-5 
@@ -102,7 +102,7 @@
           br
           |Una vez definida la variable, es posible referirse a ella, leer desde el teclado el número entero y almacenarlo en dicha variable.
           //! IMPORTANTISIMO AÑADIR LAS IMAGENES A LAS PESTAÑAS
-      .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         p
           span.etiqueta--amarilla 
             b Diseño:
@@ -148,7 +148,7 @@
       .row
         .col-1
           figure.d-none.d-xl-block.d-xxl-block
-            img(src='@/assets/curso/img4.svg', alt='Texto que describa la imagen' style='width: 100%')
+            img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
         .col-11
           .h5 Ejemplo: escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados para el cubo y el cuadrado.
           //! IMPORTANTISIMO AÑADIR LAS IMAGENES A LAS PESTAÑAS
@@ -165,7 +165,7 @@
           br
           |Una vez realizadas las operaciones el algoritmo debe mostrar en pantalla el contenido de estas variables, con un mensaje texto que indique si es el resultado del cuadrado o del cubo.
           
-      .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         p
           span.etiqueta--amarilla Diseño:
           | &nbsp la siguiente figura tiene la representación del resultado al análisis anterior.
