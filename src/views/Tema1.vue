@@ -27,6 +27,7 @@
     figure.my-5
       img(src='@/assets/curso/img2.png', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 1. Metodología de creación de algoritmos
+    #t_1_1
     .titulo-segundo
       .h4 1.1. Análisis
     .row
@@ -51,7 +52,7 @@
           .h5.text-center ¿Cómo lo hace?
           .h5.text-center ¿Por qué? y 
           .h5.text-center ¿Para qué?
-
+    #t_1_2
     .titulo-segundo
       .h4 1.2. Diseño 
     .row
