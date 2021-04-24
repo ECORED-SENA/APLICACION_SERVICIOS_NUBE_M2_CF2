@@ -13,6 +13,7 @@
     figure.my-5
       img(src='@/assets/curso/img36.svg', alt='Texto que describa la imagen' style='width:550px').m-auto
       figcaption.mt-3.w-50.p-3.m-auto Figura 9. Modelo de estructura secuencial
+    #t_5_1
     .titulo-segundo.mt-5
       .h4 5.1. Ejemplo estructura de control secuencial
     p Escribir un algoritmo para calcular el área de cualquier triángulo rectángulo, en él se debe pedir al usuario que ingrese los valores de la altura y la base del triángulo
@@ -51,6 +52,7 @@
               img(src='@/assets/curso/img38.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 10. Diagrama al área de un triángulo
     p Del diagrama de flujo y el seudocódigo se puede notar lo siguiente: el identificador de área no tiene tilde por la razón antes mencionada, el tipo de dato REAL hace referencia a que es un número que no solamente puede contener un número entero, sino también un valor con cifras decimales.
+    #t_5_2
     .titulo-segundo.mt-5
       .h4 5.2. Estructura condicional
     .row
@@ -154,6 +156,7 @@
               img(src='@/assets/curso/img44.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 12. Estructura condicional simple
     p Como observa en la figura 12, no se ejecuta nada en caso de que NO se cumpla la condición. Este tipo de estructura condicional se denomina ESTRUCTURA CONDICIONAL SIMPLE; además, todo el proceso (pedir la edad, comprobar la condición, mostrar o no el mensaje) se realiza una única vez y finaliza la ejecución del algoritmo, si se deseara que el programa repitiera estas mismas operaciones más de una vez, se tendría que usar una estructura de iteración como se verá a continuación.
+    #t_5_3
     .titulo-segundo.mt-5
       .h4 5.3. Estructuras de iteración o repetitivas
     .row.my-5
