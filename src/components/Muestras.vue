@@ -372,6 +372,7 @@ div
   .tabla-b.mb-5
     .tabla-b__header
       .h6.mb-0 Niveles del lenguaje
+      .h
     table
       caption Leyenda de la tabla
       tr
