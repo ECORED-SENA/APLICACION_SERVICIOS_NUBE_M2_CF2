@@ -22,61 +22,61 @@
     figure.my-5
       img(src='@/assets/curso/img14.png', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 6. Diagrama de flujo imprimir el cuadrado y el cubo de un entero
-    p.mb-5 La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009). 
+    p.mb-3 La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009). 
       br
       br
       |Los siguientes son los principales símbolos para crear diagramas de flujo:
-    .tarjetas_container.my-5
+    .tarjetas_container.mb-5
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img15.svg', alt='Texto que describa la imagen' style='width:312px')
-        .h4.my-5.text-center Inicio/Final
+        .h4.mt-2.text-center Inicio/Final
         p.text-center Se utiliza para indicar el inicio y el final de un diagrama; del Inicio solo puede salir una línea de flujo y al Final solo debe llegar una línea (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img16.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Decisión  
+        .h4.mt-2.text-center Decisión  
         p.text-center Indica la comparación de dos datos y dependiendo del resultado lógico (falso o verdadero) se toma la decisión de seguir un camino del diagrama u otro (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img17.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Entrada General
+        .h4.mt-2.text-center Entrada General
         p.text-center Entrada/Salida de datos en General (en esta guía, solo se usará para la Entrada) (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img18.svg', alt='Texto que describa la imagen' style='width:312px')
-        .h4.my-5.text-center Iteración
+        .h4.mt-2.text-center Iteración
         p.text-center Indica que una instrucción o grupo de instrucciones deben ejecutarse varias veces (López, 2009). 
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img19.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Entrada por teclado 
+        .h4.mt-2.text-center Entrada por teclado 
         p.text-center Instrucción de entrada de datos por teclado. Indica que el computador debe esperar a que el usuario teclee un dato que se guardará en una variable o constante (López, 2009). 
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img20.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Salida Impresa
+        .h4.mt-2.text-center Salida Impresa
         p.text-center Indica la presentación de uno o varios resultados en forma impresa (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img21.svg', alt='Texto que describa la imagen' style='width:312px')
-        .h4.my-5.text-center Llamada a subrutina 
+        .h4.mt-2.text-center Llamada a subrutina 
         p.text-center Indica la llamada a una subrutina o procedimiento determinado (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img22.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Salida en Pantalla  
+        .h4.mt-2.text-center Salida en Pantalla  
         p.text-center Instrucción de presentación de mensajes o resultados en pantalla (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img23.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Acción/Proceso General
+        .h4.mt-2.text-center Acción/Proceso General
         p.text-center Indica una acción o instrucción general que debe realizar el computador (cambios de valores de variables, asignaciones, operaciones aritméticas, etc.) (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img24.svg', alt='Texto que describa la imagen' style='width:312px')
-        .h4.my-5.text-center Conector
+        .h4.mt-2.text-center Conector
         p.text-center Indica el enlace de dos partes de un diagrama dentro de la misma página (López, 2009).
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img25.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Flujo 
+        .h4.mt-2.text-center Flujo 
         p.text-center Indica el seguimiento lógico del diagrama. También indica el sentido de ejecución de las operaciones (López, 2009). 
       .tarjetas_container--organizada.p-3.m-3
         img(src='@/assets/curso/img26.svg', alt='Texto que describa la imagen' style='width:312px').m-auto
-        .h4.my-5.text-center Conector
+        .h4.mt-2.text-center Conector
         p.text-center Indica el enlace de dos partes de un diagrama en páginas diferentes (López, 2009)
     #t_2_1
-    .titulo-segundo
+    .titulo-segundo.mt-5
       .h4 2.1 Elaborar diagramas de flujo
     p Cuando el algoritmo se desea representar como diagrama de flujo, se deben tener en cuenta algunos principios para su elaboración (Rojas y Ñacato, 1980):
 

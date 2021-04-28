@@ -84,10 +84,10 @@
     p.mt-5 
       b A continuación, se aplica la metodología vista:
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         p
           span.etiqueta--amarilla 
-            b Analisis:
+            b Análisis:
           | &nbsp el dato de entrada debe ser un número ingresado por el usuario, pero antes de eso el sistema debe solicitarle al usuario que lo ingrese (digite) al programa, si no, ¿de qué otra manera el usuario sabría que el programa está esperando el ingreso de ese dato? Por lo tanto, una posible operación inicial dentro del algoritmo sería escribir en pantalla que “por favor se ingrese un número”. 
           br
           br
@@ -104,6 +104,7 @@
         figure.my-5
           img(src='@/assets/curso/img9.png', alt='Texto que describa la imagen' style='width:600px').m-auto
           figcaption.mt-3 Figura 2. Seudocódigo imprimir un número
+    hr.hrb.mb-5
     p.mb-5 En   
       span.etiqueta--morada ALGORITMO 
       | se indica el nombre del algoritmo, y después se declaran las variables que serán usadas en él (con VAR) indicando su tipo de dato (un valor de tipo  
@@ -132,13 +133,13 @@
       span.etiqueta--morada FIN   
       | agrupa varias sentencias que se ejecutan en un orden determinado.
     .h5 1.2.2. Pruebas de escritorio o trazas
-    .row
+    .row.mb-5
       .col-lg-4
         figure
           img(src='@/assets/curso/img10.jpg', alt='Texto que describa la imagen')
       .col-lg-8
         p Las pruebas de escritorio son las simulaciones de ejecución de un algoritmo que permite determinar la validez o efectividad del mismo. Se trata de escribir en una tabla con tantas columnas como variables tiene el algoritmo y seguir las instrucciones poniendo los valores correspondientes.
-    .cajon--azul.p-4.mb-5.mb-lg-0.mx-5.my-5
+    .cajon--azul.p-4.mb-5.mb-lg-0.mx-5.mt-5
       .row
         .col-1
           figure.d-none.d-xl-block.d-xxl-block
@@ -147,10 +148,10 @@
           .h5 Ejemplo: escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados para el cubo y el cuadrado.
           //! IMPORTANTISIMO AÑADIR LAS IMAGENES A LAS PESTAÑAS
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         p
           span.etiqueta--amarilla 
-            b Analisis:
+            b Análisis:
           | &nbsp nuevamente el dato de entrada debe ser un número ingresado por el usuario, y al igual que en el ejemplo anterior se debe solicitar al usuario que lo digite. 
           br
           br
@@ -166,6 +167,7 @@
         figure.my-5
           img(src='@/assets/curso/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
           figcaption.mt-3 Figura 3. Metodología de creación de algoritmos
+    hr.mb-5
     p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los pseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias. 
       br
       br

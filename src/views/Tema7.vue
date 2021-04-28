@@ -76,6 +76,7 @@
     figure.mb-5
               img(src='@/assets/curso/img62.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 21. Prueba de escritorio de algoritmo el mayor de dos números
+    hr.mb-5
     p Una prueba de escritorio no es determinante en este ejercicio, es necesario hacerla para los dos casos faltantes, en caso que el segundo número es mayor que el primero y el caso en que ambos números ingresados son iguales. Se propone que use el ejemplo de la figura 18 para realizar el desarrollo final del ejemplo.
     
 

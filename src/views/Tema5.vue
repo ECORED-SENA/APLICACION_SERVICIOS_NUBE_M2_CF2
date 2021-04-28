@@ -18,7 +18,7 @@
       .h4 5.1. Ejemplo estructura de control secuencial
     p Escribir un algoritmo para calcular el área de cualquier triángulo rectángulo, en él se debe pedir al usuario que ingrese los valores de la altura y la base del triángulo
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
@@ -51,6 +51,7 @@
             figure.my-5
               img(src='@/assets/curso/img38.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 10. Diagrama al área de un triángulo
+    hr.mb-5
     p Del diagrama de flujo y el seudocódigo se puede notar lo siguiente: el identificador de área no tiene tilde por la razón antes mencionada, el tipo de dato REAL hace referencia a que es un número que no solamente puede contener un número entero, sino también un valor con cifras decimales.
     #t_5_2
     .titulo-segundo.mt-5
@@ -72,7 +73,7 @@
         .col-11.my-auto
           .h5 Ejemplo: un aprendiz aprueba un examen cuando la calificación de este es mayor o igual a 3. Elaborar un algoritmo que pida al usuario una calificación, aplicar el criterio de aprobación e imprimir “Aprobado” o “Reprobado”, según sea el caso.
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
@@ -105,6 +106,7 @@
             figure.my-5
               img(src='@/assets/curso/img41.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 11. Estructura condicional doble
+    hr.mb-5
     p En la figura 11 se observa cómo se introduce la calificación por teclado, tanto en el diagrama de flujo (con la representación de trapecio) o el seudocódigo con la preposición 
       b LEER, 
       b-none luego este valor se compara en un condicional, en el diagrama de flujo con la representación de un rombo, mientras que en el seudocódigo se una la preposición SI, seguido de las preposiciones que se han de ejecutar en caso de que la condición sea verdadera (note que está escrita más a la derecha). También se usa la preposición 
@@ -123,7 +125,7 @@
         .col-11.my-auto
           .h5 Ejemplo: escribir un algoritmo en donde se pida la edad del usuario; si es mayor de edad debe aparecer un mensaje indicándolo.
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
@@ -155,6 +157,7 @@
             figure.my-5
               img(src='@/assets/curso/img44.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 12. Estructura condicional simple
+    hr.mb-5
     p Como observa en la figura 12, no se ejecuta nada en caso de que NO se cumpla la condición. Este tipo de estructura condicional se denomina ESTRUCTURA CONDICIONAL SIMPLE; además, todo el proceso (pedir la edad, comprobar la condición, mostrar o no el mensaje) se realiza una única vez y finaliza la ejecución del algoritmo, si se deseara que el programa repitiera estas mismas operaciones más de una vez, se tendría que usar una estructura de iteración como se verá a continuación.
     #t_5_3
     .titulo-segundo.mt-5
@@ -189,7 +192,7 @@
         .col-11.my-auto
           .h5 EJEMPLO: escribir un procedimiento que muestre siete (7) veces en pantalla la frase “Esto es un algoritmo”. Mostrar en pantalla la salida del en el computador.
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
@@ -221,6 +224,7 @@
             figure.my-5
               img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 13. Estructura de repetición FOR
+    hr.mb-5
     .row
       .col-lg-2
         p La salida en pantalla sería:
@@ -256,7 +260,7 @@
         .col-11.my-auto
           .h5 Ejemplo: se necesita elaborar un algoritmo que solicite al usuario un número entero y sume todos los números naturales que hay hasta ese número. Por ejemplo, si el usuario digita 3, el programa debe sumar: 1 + 2 + 3, si el usuario digita 5 el programa debe sumar 1+2+3+4+5. Al finalizar debe imprimir el resultado.
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
@@ -292,6 +296,7 @@
             figure.my-5
               img(src='@/assets/curso/img48.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 14. Estructura de repetición FOR acumulador suma
+    hr.mb-5
     p.mb-5 En la anterior figura se muestra el algoritmo en sus dos representaciones más comunes, se propone en secciones posteriores hacer una prueba de escritorio a este problema. 
     .h5 5.3.2. Estructura MIENTRAS (WHILE)
     p La instrucción "Mientras", puede impedir la ejecución de un conjunto de instrucciones, si la evaluación de una condición lógica es falsa. Esto significa que es repetitiva únicamente cuando la evaluación de la condición es verdadera.
@@ -320,7 +325,7 @@
               figcaption.mt-3 Figura 15 - Proceso de factorial
     p.my-5 En la anterior figura se observa que es preciso ir incrementando el valor en 1 (valor constante - contador -) hasta que llegue al número 5 (datos suministrados por el usuario); es decir, 1*2 = 2, este resultado se multiplica por 3 (2 * 3 = 6), 6 se multiplica por 4 (6 * 4 = 24), finalmente también 24 se multiplica por 5 y se obtiene la factorial (24 * 5 = 120), de esta forma, los resultados de las multiplicaciones se van acumulando hasta obtener la factorial. 
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
