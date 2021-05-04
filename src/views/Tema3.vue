@@ -51,13 +51,19 @@
     p.my-5 
       span.etiqueta--amarilla 
         b  Solución:
-      | &nbsp en el algoritmo de imprimir un número entero usando el identificador de entrada para representar el número digitado.
+      | &nbsp en el algoritmo de imprimir un número entero usando el identificador de 
+      b entrada 
+      b-none para representar el número digitado.
       br
       br
-      |En el algoritmo de imprimir el cuadrado y el cubo de un número entero empleando el identificador de entrada para representar el númedigitado, el identificador cuadrado para representar el valor del cuadrado de entrada y el identificador cubo para almacenar el cubo entrada.
+      |En el algoritmo de imprimir el cuadrado y el cubo de un número entero empleando el identificador de 
+      b entrada 
+      b-none para representar el número digitado, el identificador cuadrado para representar el valor del cuadrado de entrada y el identificador 
+      b cubo 
+      b-none para almacenar el cubo entrada.
       br
       br
-      |Todos los lenguajes de programación tienen unas palabras para nombrar sus comandos, instrucciones y funciones; estas palabras no se puedusar como indicadores.
+      |Todos los lenguajes de programación tienen unas palabras para nombrar sus comandos, instrucciones y funciones; estas palabras no se pueden usar como indicadores.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="a. Variables")
         p.px-5.mb-5 Para los algoritmos con diversos conjuntos de datos iniciales, se debe determinar una independencia entre los datos iniciales de un problema y la estructura de su solución. Esto se hace mediante la utilización de variables (cantidades que se suelen emplear y que durante la ejecución del algoritmo pueden tomar cualquier valor de un intervalo de valores posibles).
@@ -74,10 +80,13 @@
               figure.d-none.d-xl-block.d-xxl-block
                 img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
             .col-11.my-auto
-              .h5 Ejemplo: listar los identificadores usados en los algoritmos previos.
-        figure.mb-5
+              .h5 Ejemplo: definir un contador llamado contador que se incremente en uno cada vez tres veces.
+        figure.mb-3
           img(src='@/assets/curso/img31.svg', alt='Texto que describa la imagen' style='width: 80%').m-auto
           figcaption.mt-3 Figura 8. Contador en un algoritmo
+        p.px-5.mb-5 Como se puede ver en el algoritmo, tres veces se incremente en 1 (uno) el valor del de contador y al final de la ejecución su valor es de 3. Es importante notar que contador inicia con un valor el valor 0, si esta asignación inicial no se hace el computador pondría un valor aleatorio y el valor al final del algoritmo sería indeterminado.
+
+  
       .row(titulo="d. Acumuladores")
         p.px-5.mb-5 Los acumuladores son una versión ampliada de contadores, tienen las mismas características que un contador excepto el valor que se va incrementando no es una constante sino una que es un valor variable.
 

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Análisis y solución de problemas aplicando algoritmos',
     descripcionCurso:
-      'El avance tecnológico lleva implícito la frontera del conocimiento, esto a su vez genera nuevos conceptos, terminologías, notaciones, nomenclaturas y su representación a través diagramas, planos o artefactos que terminan convirtiéndose en un lenguaje natural de la tecnología en cuestión. <br/><br/> En este componente se presentan los artefactos diagramas y nomenclaturas con los que se describen los algoritmos.',
+      'El avance tecnológico lleva implícito la frontera del conocimiento, esto a su vez genera nuevos conceptos, terminologías, notaciones, nomenclaturas y su representación a través de diagramas, planos o artefactos que terminan convirtiéndose en un lenguaje natural de la tecnología en cuestión. <br/><br/> En este componente se presentan los artefactos, diagramas y nomenclaturas con los que se describen los algoritmos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -24,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Metodologías de algoritmos',
+        titulo: 'Metodología de algoritmos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -130,6 +130,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Programación modular',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -185,19 +186,19 @@ export default {
           'Peter Emerson Pinchao Solis',
           'Zulema Yidney León Escobar',
         ],
-        cargo: 'Experto temático',
+        cargo: 'Expertos temáticos',
         centro: 'Centro de teleinformática y producción industrial',
         regional: 'Regional Cauca',
       },
       {
         nombre: ['Alix Cecilia Chinchilla Rueda', 'Oscar Absalón Guevara'],
-        cargo: 'Diseñador instruccional',
+        cargo: 'Diseñadores instruccionales',
         centro: 'Centro de gestión industrial',
         regional: 'Regional Bogotá',
       },
       {
         nombre: ['José Gabriel Ortiz Abella', 'Julia Isabel Roberto'],
-        cargo: 'Evaluador instruccional',
+        cargo: 'Evaluadores instruccionales',
         centro: 'Centro para la industria y la comunicación gráfica',
         regional: 'Regional Distrito Capital',
       },

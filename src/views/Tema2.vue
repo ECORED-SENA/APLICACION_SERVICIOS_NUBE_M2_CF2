@@ -20,7 +20,7 @@
       figcaption Ventajas de los diagramas de flujo
     p.mb-5 La representación del algoritmo de la figura 3 (algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados el cubo y el cuadrado) es:
     figure.my-5
-      img(src='@/assets/curso/img14.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/img14.svg', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 6. Diagrama de flujo imprimir el cuadrado y el cubo de un entero
     p.mb-3 La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009). 
       br
@@ -96,8 +96,9 @@
     .titulo-segundo
       .h4 2.2. Herramientas digitales para creación y prueba de algoritmos       
     P Para aprender a reconocer los elementos que componen los diagramas de flujo se puede hacer uso de la herramienta denominada Draw.io a través del enlace 
-    b https://app.diagrams.net/ 
-    b-none con la que puede usar una cuenta de correo de Google, o misena.edu.co para acceder y crear un nuevo diagrama.
+      a.link(href="https://app.diagrams.net/ " target="_blank") 
+        |https://app.diagrams.net/ 
+      |con la que puede usar una cuenta de correo de Google, o misena.edu.co para acceder y crear un nuevo diagrama.
       br
       br
       |Es ideal ingresar y seleccionar los diagramas que se muestran en la siguiente figura.
@@ -105,9 +106,9 @@
       img(src='@/assets/curso/img28.png', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 7 Seleccionar formas. Nota. Tomada de https://app.diagrams.net/
     p.mb-5 En caso de contar con intermitencia de internet se puede realizar el ejercicio propuesto a través del programa de libre distribución disponible en 
-      b http://dia-installer.de/ 
-      b-none o puede acceder a la versión de escritorio de Draw.io disponible en 
-      b https://app.diagrams.net/.
+      a.link(href="http://dia-installer.de/" target="_blank") http://dia-installer.de/ 
+      | o puede acceder a la versión de escritorio de Draw.io disponible en 
+      a.link(href="https://app.diagrams.net/" target="_blank") https://app.diagrams.net/
     a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=encz3h8TLWA" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")
@@ -115,7 +116,8 @@
           p 
             b Enlace web. 
             b-none Instituto de Informática Uach. (08 de septiembre de 2020). Cómo descargar draw io 2 para dibujar diagramas de flujo. [Video].  
-    p.mt-5 El programa de mayor uso para el diseño y depuración de algoritmos en seudocódigo es PSeInt disponible en http://pseint.sourceforge.net/.
+    p.mt-5 El programa de mayor uso para el diseño y depuración de algoritmos en seudocódigo es PSeInt disponible en 
+      a.link(href="http://pseint.sourceforge.net/" target="_blank") http://pseint.sourceforge.net/.
 
 </template>
 

@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 1
-      .h3 Metodologías de algoritmos
+      .h3 Metodología de algoritmos
     .row
       .col-lg-4
         figure
@@ -95,7 +95,9 @@
           br
           br
           |Una vez definida la variable, es posible referirse a ella, leer desde el teclado el número entero y almacenarlo en dicha variable.
-          //! IMPORTANTISIMO AÑADIR LAS IMAGENES A LAS PESTAÑAS
+          br
+          br
+          p Por último, el sistema debe imprimir el contenido de la variable (dato de salida), con lo cual se puede dar final al programa.
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         p
           span.etiqueta--amarilla 
@@ -104,7 +106,6 @@
         figure.my-5
           img(src='@/assets/curso/img9.png', alt='Texto que describa la imagen' style='width:600px').m-auto
           figcaption.mt-3 Figura 2. Seudocódigo imprimir un número
-    hr.hrb.mb-5
     p.mb-5 En   
       span.etiqueta--morada ALGORITMO 
       | se indica el nombre del algoritmo, y después se declaran las variables que serán usadas en él (con VAR) indicando su tipo de dato (un valor de tipo  

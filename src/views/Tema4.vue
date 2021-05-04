@@ -80,7 +80,7 @@
           tr
             th 1
             td 7 + 8
-            td Primero que todo lo que más valor tiene en la jerarquía son los paréntesis de manera que y en particular los más interiores de esta forma el computador se interesara en resolver primero el contenido de 
+            td Primero que todo lo que más valor tiene en la jerarquía son los paréntesis de manera que y en particular los más interiores de esta forma el computador se interesará en resolver primero el contenido de 
               b (7 + 8). 
               b-none Y el resultado será 
               b 15.
@@ -138,7 +138,7 @@
           b (2 + (7 + 8) * 16 + 3^2) /4 +5.
           br
           br
-          |Solución: primero que todo, lo que más valor tiene en la jerarquía son los paréntesis de manera que y en particular los más interiores, de esta forma la computadora se interesara en resolver primero el contenido de 
+          |Solución: primero que todo, lo que más valor tiene en la jerarquía son los paréntesis de manera que y en particular los más interiores, de esta forma la computadora se interesará en resolver primero el contenido de 
           b (7 + 8).
       .py-4.py-md-5(titulo="Ejemplo 2" :icono="require('@/assets/curso/img34.svg')")
         p Escribir la siguiente ecuación como una expresión que la computadora pueda interpretar en el orden adecuado. 

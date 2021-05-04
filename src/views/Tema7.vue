@@ -42,28 +42,34 @@
           ul.lista-ul
             li 
               i.fas.fa-circle
-              b  Formular el problema:
-              b-none es un algoritmo que solita y compara dos números para mostrar el mayor.
+              p
+                b  Formular el problema:
+                b-none  es un algoritmo que solita y compara dos números para mostrar el mayor.
             li 
               i.fas.fa-circle
-              b  Resultados esperados:
-              b-none    el número que es mayor de ambos.
+              p
+                b  Resultados esperados:
+                b-none    el número que es mayor de ambos.
             li 
               i.fas.fa-circle
-              b  Datos disponibles:
-              b-none   2 números ingresados por el usuario
+              p
+                b  Datos disponibles:
+                b-none   2 números ingresados por el usuario
             li 
               i.fas.fa-circle
-              b  Datos adicionales:
-              b-none     ninguno.
+              p
+                b  Datos adicionales:
+                b-none     ninguno.
             li 
               i.fas.fa-circle
-              b  Restricciones:
-              b-none   validar cuál número es mayor para saber cuál mostrar.
+              p
+                b  Restricciones:
+                b-none   validar cuál número es mayor para saber cuál mostrar.
             li 
               i.fas.fa-circle
-              b  Procesos necesarios: 
-              b-none  se requiere definir los datos a recibir, pedirle que al usuario que digite los números, comparar para saber cuál es el mayor y mostrarlo. 
+              p
+                b  Procesos necesarios: 
+                b-none  se requiere definir los datos a recibir, pedirle que al usuario que digite los números, comparar para saber cuál es el mayor y mostrarlo. 
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         .row
           .col-lg-6
@@ -73,10 +79,16 @@
             figure.my-5
               img(src='@/assets/curso/img61.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 20. Estructura  Algoritmo el mayor de dos números
-    figure.mb-5
+        p.mb-5
+          b Diseño de prueba 1
+          br
+          | Selección de datos: se usarán para la prueba los números 34 y 16.
+          br
+          |Salida esperada: debe mostrar el número 34.
+
+        figure.mb-5
               img(src='@/assets/curso/img62.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 21. Prueba de escritorio de algoritmo el mayor de dos números
-    hr.mb-5
     p Una prueba de escritorio no es determinante en este ejercicio, es necesario hacerla para los dos casos faltantes, en caso que el segundo número es mayor que el primero y el caso en que ambos números ingresados son iguales. Se propone que use el ejemplo de la figura 18 para realizar el desarrollo final del ejemplo.
     
 

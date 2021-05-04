@@ -23,24 +23,24 @@
           ul.lista-ul
             li 
               i.fas.fa-circle
-              b  Formular el problema:
-              b-none está claramente planteado y consiste en calcular el área de un rectángulo.
+              p  <b>Formular el problema:</b> 
+                |está claramente planteado y consiste en calcular el área de un rectángulo.
             li 
               i.fas.fa-circle
-              b  Resultados esperados:
-              b-none  se espera que el algoritmo sea capaz de calcular el área del rectángulo y mostrar en la pantalla el resultado de ese cálculo.
+              p <b>Resultados esperados:</b> 
+                | se espera que el algoritmo sea capaz de calcular el área del rectángulo y mostrar en la pantalla el resultado de ese cálculo.
             li 
               i.fas.fa-circle
-              b  Datos disponibles:
-              b-none  dos datos números que son la base y la altura del triángulo (se deben solicitar al usuario). El aprendiz debe preguntarse si sus conocimientos actuales de matemáticas le permiten resolver este problema, de no ser así, tendrá plantear una estrategia para obtener los conocimientos requeridos. Para este ejemplo recordar que un triángulo rectángulo es aquel que uno de sus lados tiene un ángulo recto (90 grados).
+              p <b>Datos disponibles:</b> 
+                |dos datos números que son la base y la altura del triángulo (se deben solicitar al usuario). El aprendiz debe preguntarse si sus conocimientos actuales de matemáticas le permiten resolver este problema, de no ser así, tendrá plantear una estrategia para obtener los conocimientos requeridos. Para este ejemplo recordar que un triángulo rectángulo es aquel que uno de sus lados tiene un ángulo recto (90 grados).
             li 
               i.fas.fa-circle
-              b  Restricciones:
-              b-none   los valores de base y altura son variables y se deben solicitar al usuario.
+              p <b>Restricciones: </b>
+                | los valores de base y altura son variables y se deben solicitar al usuario.
             li 
               i.fas.fa-circle
-              b  Procesos necesarios: 
-              b-none  definir variables; asignar el valor 2 a la constante usando para dividir (divisor); solicitar al usuario el valor de la altura del triángulo; solicitar al usuario el valor de la base; aplicar la fórmula de área; mostrar el resultado.
+              p <b>Procesos necesarios: </b>
+                | definir variables; asignar el valor 2 a la constante usando para dividir (divisor); solicitar al usuario el valor de la altura del triángulo; solicitar al usuario el valor de la base; aplicar la fórmula de área; mostrar el resultado.
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         p El algoritmo resultado del análisis se puede ver en la figura 8, en la que están representados tanto el diagrama de flujo como en seudocódigo, mientras se está aprendiendo a diseñarlos, es importante hacerlos algoritmos en diagrama de flujo y en la medida que se va adquiriendo experticia con la representación de seudocódigo es más conveniente hacer esta representación en razón de la velocidad a la hora de diseñarlo.
         .row
@@ -78,24 +78,29 @@
           ul.lista-ul
             li 
               i.fas.fa-circle
-              b  Formular el problema:
-              b-none es un problema sencillo de condición con dos operaciones o condición doble.
+              p  
+                b Formular el problema: 
+                b-none  es un problema sencillo de condición con dos operaciones o condición doble.
             li 
               i.fas.fa-circle
-              b  Resultados esperados:
-              b-none un aviso que reporte si el estudiante obtiene “Aprobado” o “Reprobado” el examen.
+              p
+                b  Resultados esperados:
+                b-none  un aviso que reporte si el estudiante obtiene “Aprobado” o “Reprobado” el examen.
             li 
               i.fas.fa-circle
-              b  Datos disponibles:
-              b-none    la calificación ingresada por el usuario. Para aprobar, la nota debe ser mayor o igual a 3.
+              p
+                b  Datos disponibles:
+                b-none    la calificación ingresada por el usuario. Para aprobar, la nota debe ser mayor o igual a 3.
             li 
               i.fas.fa-circle
-              b  Restricciones:
-              b-none    aplicar el criterio de aprobación (calificación mayor o igual a 3).
+              p
+                b  Restricciones:
+                b-none    aplicar el criterio de aprobación (calificación mayor o igual a 3).
             li 
               i.fas.fa-circle
-              b  Procesos necesarios: 
-              b-none   solicitar al usuario que ingrese la calificación. Evaluar si la calificación es igual o superior a 3; en caso de ser verdadero, reportar “Aprobado”; en caso contrario, reportar “Reprobado”.
+              p
+                b  Procesos necesarios: 
+                b-none   solicitar al usuario que ingrese la calificación. Evaluar si la calificación es igual o superior a 3; en caso de ser verdadero, reportar “Aprobado”; en caso contrario, reportar “Reprobado”.
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         p  • Diseño:  en anterior análisis se contemplaron los datos de entrada, datos auxiliares (variable) operaciones (impresión en pantalla, lectura de datos e impresión en pantalla de resultados). Pero son muchas las palabras usadas en el análisis por lo tanto lo abreviamos con el siguiente código 	que, posteriormente, se explicará.
         .row
@@ -197,24 +202,29 @@
           ul.lista-ul
             li 
               i.fas.fa-circle
-              b  Formular el problema:
-              b-none es un problema sencillo solo consiste en usar una sentencia de repetición.
+              p
+                b  Formular el problema:
+                b-none  es un problema sencillo solo consiste en usar una sentencia de repetición.
             li 
               i.fas.fa-circle
-              b  Resultados esperados:
-              b-none   el mensaje “Esto es un algoritmo” 7 veces impreso en pantalla.
+              p
+                b  Resultados esperados:
+                b-none   el mensaje “Esto es un algoritmo” 7 veces impreso en pantalla.
             li 
               i.fas.fa-circle
-              b  Datos disponibles:
-              b-none   constante con el número de repeticiones (7).
+              p
+                b  Datos disponibles:
+                b-none   constante con el número de repeticiones (7).
             li 
               i.fas.fa-circle
-              b  Restricciones:
-              b-none   ninguna.
+              p
+                b  Restricciones:
+                b-none   ninguna.
             li 
               i.fas.fa-circle
-              b  Procesos necesarios: 
-              b-none  hacer que se imprima en pantalla el mensaje 7 veces
+              p
+                b  Procesos necesarios: 
+                b-none  hacer que se imprima en pantalla el mensaje 7 veces
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
         .row
           .col-lg-6

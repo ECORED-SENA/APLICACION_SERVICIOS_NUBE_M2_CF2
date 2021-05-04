@@ -48,33 +48,39 @@
           .h5 Ejemplo: hacer un programa que pida 5 números enteros al usuario y los guarde en un arreglo de números en un arreglo, luego que imprima los números mayores de 100.
     p.my-5 A continuación, se revisan dos ejemplos: 
     TabsB.my-5
-      .py-4.py-md-5(titulo="Ejemplo 1" :icono ="require ('@/assets/curso/img33.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img33.svg')")
         ul.lista-ul
             li 
               i.fas.fa-circle
-              b  Formular el problema:
-              b-none pedirle al usuario 5 números enteros almacenarlos en un arreglo y luego recorrer el arreglo para buscar los números mayores a 100.
+              p
+                b  Formular el problema:
+                b-none  pedirle al usuario 5 números enteros almacenarlos en un arreglo y luego recorrer el arreglo para buscar los números mayores a 100.
             li 
               i.fas.fa-circle
-              b  Resultados esperados:
-              b-none   imprimir en pantalla de los 5 números ingresados por el usuario solamente los mayores a 100.
+              p
+                b  Resultados esperados:
+                b-none   imprimir en pantalla de los 5 números ingresados por el usuario solamente los mayores a 100.
             li 
               i.fas.fa-circle
-              b  Datos disponibles:
-              b-none   5 números ingresados por el usuario.
+              p
+                b  Datos disponibles:
+                b-none   5 números ingresados por el usuario.
             li 
               i.fas.fa-circle
-              b  Datos adicionales:
-              b-none    por cada uno de esos números validar si son mayores que 100 y mostrar los que lo sean en la pantalla. 
+              p
+                b  Datos adicionales:
+                b-none    por cada uno de esos números validar si son mayores que 100 y mostrar los que lo sean en la pantalla. 
             li 
               i.fas.fa-circle
-              b  Restricciones:
-              b-none   ninguna.
+              p
+                b  Restricciones:
+                b-none   ninguna.
             li 
               i.fas.fa-circle
-              b  Procesos necesarios: 
-              b-none  se requiere definir un arreglo de tamaño 5, se necesita pedir 5 veces un entero y almacenarlos en el vector. Luego se debe recorrer las 5 posiciones del vector para comparar en cada uno de los datos si es mayor que 100, si el número comparador es lo que se debe imprimir. Como 5 es un número invariante, el programa lo define como una constante de nombre tamano (no se usa la ñ porque no permite ni acentos latinos ni tildes), se debe usar la sentencia repetitiva PARA porque se sabe el número de veces que se debe repetir cada acción.   
-      .py-4.py-md-5(titulo="Ejemplo 2" :icono="require('@/assets/curso/img34.svg')")
+              p
+                b  Procesos necesarios: 
+                b-none  se requiere definir un arreglo de tamaño 5, se necesita pedir 5 veces un entero y almacenarlos en el vector. Luego se debe recorrer las 5 posiciones del vector para comparar en cada uno de los datos si es mayor que 100, si el número comparador es lo que se debe imprimir. Como 5 es un número invariante, el programa lo define como una constante de nombre tamano (no se usa la ñ porque no permite ni acentos latinos ni tildes), se debe usar la sentencia repetitiva PARA porque se sabe el número de veces que se debe repetir cada acción.   
+      .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img34.svg')")
         .row
           .col-lg-6
             figure.my-5
