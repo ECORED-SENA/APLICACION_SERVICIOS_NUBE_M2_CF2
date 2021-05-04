@@ -133,12 +133,19 @@
       span.etiqueta--morada FIN   
       | agrupa varias sentencias que se ejecutan en un orden determinado.
     .h5 1.2.2. Pruebas de escritorio o trazas
-    .row.mb-5
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/img10.jpg', alt='Texto que describa la imagen')
-      .col-lg-8
-        p Las pruebas de escritorio son las simulaciones de ejecución de un algoritmo que permite determinar la validez o efectividad del mismo. Se trata de escribir en una tabla con tantas columnas como variables tiene el algoritmo y seguir las instrucciones poniendo los valores correspondientes.
+    .tarjeta.tarjeta--gris.p-4.p-md-5.mt-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/componentes/ej-01.png")
+        .col-md.col-lg-6
+          .titulo-segundo
+            .h2 Pruebas de escritorio o trazas
+          p.mb-4 Las pruebas de escritorio son las simulaciones de ejecución de un algoritmo que permite determinar la validez o efectividad del mismo. Se trata de escribir en una tabla con tantas columnas como variables tiene el algoritmo y seguir las instrucciones poniendo los valores correspondientes.
+
+          a.boton.boton--a(:href="obtenerLink('/downloads/Infografia_Prueba_de_Escritorio.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+
     .cajon--azul.p-4.mb-5.mb-lg-0.mx-5.mt-5
       .row
         .col-1
@@ -146,7 +153,6 @@
             img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
         .col-11
           .h5 Ejemplo: escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados para el cubo y el cuadrado.
-          //! IMPORTANTISIMO AÑADIR LAS IMAGENES A LAS PESTAÑAS
     TabsB.my-5
       .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         p

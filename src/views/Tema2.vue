@@ -16,8 +16,8 @@
     p.mb-5 Es ideal revisar el siguiente vídeo sobre la representación gráfica de un algoritmo a través del diagrama de flujo: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/UA2JCB7He8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video de muestra (Material no elaborado)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/A-h0_9ZDd5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Ventajas de los diagramas de flujo
     p.mb-5 La representación del algoritmo de la figura 3 (algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados el cubo y el cuadrado) es:
     figure.my-5
       img(src='@/assets/curso/img14.png', alt='Texto que describa la imagen')
@@ -79,22 +79,19 @@
     .titulo-segundo.mt-5
       .h4 2.1 Elaborar diagramas de flujo
     p Cuando el algoritmo se desea representar como diagrama de flujo, se deben tener en cuenta algunos principios para su elaboración (Rojas y Ñacato, 1980):
-
-    //todo PENDIENTE POR AGREGAR INFOGRAFIA 
-
-    .tarjeta.tarjeta--amarilla.p-3.my-5
+    //todo Pendiente agregar infografía 
+    .tarjeta.tarjeta--gris.p-4.p-md-5.mt-5.my-5
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/img27.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Diagramas de flujo
-              p.text-small Infografía. Elaborar diagramas de flujo 
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/componentes/ej-01.png")
+        .col-md.col-lg-6
+          .titulo-segundo
+            .h2 Diagramas de flujo
+          p.mb-4 Infografía. Elaborar diagramas de flujo
+          br
+          a.boton.boton--a(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
     #t_2_2
     .titulo-segundo
       .h4 2.2. Herramientas digitales para creación y prueba de algoritmos       
