@@ -69,22 +69,25 @@
         p.px-5.mb-5 Para los algoritmos con diversos conjuntos de datos iniciales, se debe determinar una independencia entre los datos iniciales de un problema y la estructura de su solución. Esto se hace mediante la utilización de variables (cantidades que se suelen emplear y que durante la ejecución del algoritmo pueden tomar cualquier valor de un intervalo de valores posibles).
           br
           br
-          |Las variables son espacios de trabajo (contenedores) dispuestos para almacenar datos (valores). El valor de una variable puede ir cambiando en   algún paso del algoritmo o permanecer sin cambios; por lo tanto, el valor de una variable es el del último valor o dato asignado a esta. En la  figura 6, las variables eran los indicadores cuadrados y cubo.
+          |Las variables son espacios de trabajo (contenedores) dispuestos para almacenar datos (valores). El valor de una variable puede ir cambiando en   algún paso del algoritmo o permanecer sin cambios; por lo tanto, el valor de una variable es el del último valor o dato asignado a esta. En la  figura 6, las variables eran los indicadores 
+          b cuadrados 
+          b-none y 
+          b cubo.
       .row(titulo="b. Constantes")
         p.px-5.mb-5 Las constantes se crean de la misma forma que las variables, a diferencia que se procura su definición o creación a inicio del algoritmo. Las constantes consisten en datos que, luego de ser asignados, no cambian en ninguna instrucción del algoritmo; pueden contener constantes matemáticas (pi).
       .row(titulo="c. Contadores")
         p.px-5.mb-5 Un contador es una variable que está en ambos lados de una asignación (a la derecha y a la izquierda) interna, a la que se le suma un valor constante. Es necesario haberla iniciado al principio del algoritmo, ya que va a ser leído su contenido.
-        .cajon--azul.p-4.mb-5.mx-5
-          .row
+        .cajon--azul.p-4.mb-5
+          .row.mx-auto
             .col-1
               figure.d-none.d-xl-block.d-xxl-block
                 img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
-            .col-11.my-auto
+            .col-auto.my-auto
               .h5 Ejemplo: definir un contador llamado contador que se incremente en uno cada vez tres veces.
         figure.mb-3
           img(src='@/assets/curso/img31.svg', alt='Texto que describa la imagen' style='width: 80%').m-auto
           figcaption.mt-3 Figura 8. Contador en un algoritmo
-        p.px-5.mb-5 Como se puede ver en el algoritmo, tres veces se incremente en 1 (uno) el valor del de contador y al final de la ejecución su valor es de 3. Es importante notar que contador inicia con un valor el valor 0, si esta asignación inicial no se hace el computador pondría un valor aleatorio y el valor al final del algoritmo sería indeterminado.
+        p.px-5.mb-5 Como se puede ver en el algoritmo, tres veces se incremente en 1 (uno) el valor del contador y al final de la ejecución su valor es de 3. Es importante notar que contador inicia con un valor, el valor 0, si esta asignación inicial no se hace el computador pondría un valor aleatorio y el valor al final del algoritmo sería indeterminado.
 
   
       .row(titulo="d. Acumuladores")

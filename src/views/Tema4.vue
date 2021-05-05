@@ -13,20 +13,24 @@
       ul.lista-ul--separador
         li 
           i.fas.fa-circle
-          b  Aritméticos: 
-          b-none permiten realizar operaciones entre datos de tipo numérico y dan como resultado otro valor de tipo numérico. Ejemplo: producto o multiplicación (*); división (/); suma (+); resta (-); asignación (=).
+          p
+            b  Aritméticos: 
+            b-none  permiten realizar operaciones entre datos de tipo numérico y dan como resultado otro valor de tipo numérico. Ejemplo: producto o multiplicación (*); división (/); suma (+); resta (-); asignación (=).
         li 
           i.fas.fa-circle
-          b  Alfanuméricos: 
-          b-none permiten operar con datos de tipo carácter (letras) o cadenas de texto. La mayoría de los lenguajes de programación admiten el operador + para realizar la concatenación (unión) de caracteres o cadenas.
+          p
+            b  Alfanuméricos: 
+            b-none  permiten operar con datos de tipo carácter (letras) o cadenas de texto. La mayoría de los lenguajes de programación admiten el operador + para realizar la concatenación (unión) de caracteres o cadenas.
         li 
           i.fas.fa-circle
-          b Relacionales:
-          b-none  permiten la comparación entre datos del mismo tipo de dato y dan como resultado dos valores posibles: verdadero o falso. Ejemplo: igual a (=); menor que (<); mayor que (>,) mayor e igual que (>=).
+          p
+            b Relacionales:
+            b-none  permiten la comparación entre datos del mismo tipo de dato y dan como resultado dos valores posibles: verdadero o falso. Ejemplo: igual a (=); menor que (<); mayor que (>,) mayor e igual que (>=).
         li 
           i.fas.fa-circle
-          b  Lógicos: 
-          b-none posibilitan la evaluación lógica de dos expresiones de tipo lógico. Dan como resultado uno de dos valores posibles: verdadero o falso. Ejemplo: negación (no); conjunción (y); disyunción(o).
+          p
+            b  Lógicos: 
+            b-none  posibilitan la evaluación lógica de dos expresiones de tipo lógico. Dan como resultado uno de dos valores posibles: verdadero o falso. Ejemplo: negación (no); conjunción (y); disyunción(o).
     .h5 A. Jerarquía en los operadores
     p Las computadoras ejecutan los operadores en un orden establecido y el siguiente es el orden (jerarquía) para ejecutar operadores:
     .contenedor-listas.my-5.mx-auto
