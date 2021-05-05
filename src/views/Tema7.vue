@@ -37,7 +37,7 @@
         .col-11.my-auto
           .h5 Ejemplo: realizar un algoritmo que solicite dos números e imprima cuál es el mayor de ambos, si son iguales, mostrar cualquiera.
     TabsB.my-5
-      .py-4.py-md-5(titulo="Analisis" :icono ="require ('@/assets/curso/img7.svg')")
+      .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/img7.svg')")
         
           ul.lista-ul
             li 
