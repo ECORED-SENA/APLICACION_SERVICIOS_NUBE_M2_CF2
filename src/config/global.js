@@ -208,12 +208,6 @@ export default {
         centro: 'Centro para la industria de la comunicación gráfica',
         regional: 'Regional Distrito Capital',
       },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro industrial del diseño Y la manufactura',
-        regional: 'Regional Santander',
-      },
     ],
     desarrolloProducto: [
       {
@@ -236,28 +230,30 @@ export default {
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: [
-          'Lizeth Karina Manchego Suarez',
-          'Luis Gabriel Urueta Alvarez',
-        ],
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
-      },
-      {
-        centro: 'Centro industrial del diseño y la manufactura',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura ',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Jhon Jairo Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
+        nombre: [
+          'Jenny Paola Montillo',
+          'Jhana Johana Bustillo',
+          'María Isabel Román Rueda',
+          'Rafael Augusto Mantilla',
+          'Veimar Celis Meléndez',
+          'Yuli Marcela Gómez',
+        ],
+        cargo: 'Revisores de contenido',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura ',
+        regional: 'Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: ['Milady Tatiana Villamil Castellanos'],
         cargo: ['Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
+        centro: 'CENTRO DE COMERCIO Y SERVICIOS ',
         regional: 'Regional Tolima',
       },
     ],
