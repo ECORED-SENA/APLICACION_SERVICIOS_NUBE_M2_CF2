@@ -89,7 +89,7 @@
             .h2 Diagramas de flujo
           p.mb-4 Infografía. Elaborar diagramas de flujo
           br
-          a.boton.boton--a(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.boton--a(:href="obtenerLink('/downloads/Infografia_diagrama_de_flujo.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     #t_2_2
