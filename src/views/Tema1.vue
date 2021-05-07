@@ -19,7 +19,7 @@
           br
           |En general, existen tres (3) fases secuenciales para la elaboración de un algoritmo representadas en la siguiente figura y de las cuales se abordarán las dos primeras:
     figure.my-5
-      img(src='@/assets/curso/img2.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/img2.svg', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 1. Metodología de creación de algoritmos
     #t_1_1
     .titulo-segundo
