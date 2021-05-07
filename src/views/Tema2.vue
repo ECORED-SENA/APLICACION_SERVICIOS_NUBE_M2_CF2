@@ -6,7 +6,7 @@
       .titulo-principal__numero
         .h3 2
       .h3 Diagramas de flujo
-    p Una forma común de presentar los algoritmos es con diagramas de flujo, que consiste en una representación por medio de un gráfico. Mientras en seudocódigo las sentencias se representaban con preposiciones en diagramas de flujo la preposición es reemplazada por una figura.
+    p Una forma común de presentar los algoritmos es con diagramas de flujo, que consiste en una representación por medio de un gráfico. Mientras en pseudocódigo las sentencias se representaban con preposiciones en diagramas de flujo la preposición es reemplazada por una figura.
       br
       br
       |La representación del algoritmo de la figura 4 sería:
@@ -116,7 +116,7 @@
           p 
             b Enlace web. 
             b-none Instituto de Informática Uach. (08 de septiembre de 2020). Cómo descargar draw io 2 para dibujar diagramas de flujo. [Video].  
-    p.mt-5 El programa de mayor uso para el diseño y depuración de algoritmos en seudocódigo es PSeInt disponible en 
+    p.mt-5 El programa de mayor uso para el diseño y depuración de algoritmos en pseudocódigo es PSeInt disponible en 
       a.link(href="http://pseint.sourceforge.net/" target="_blank") http://pseint.sourceforge.net/.
 
 </template>

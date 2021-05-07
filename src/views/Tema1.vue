@@ -31,7 +31,7 @@
       .col-md-11
         p Como se percibió en componentes anteriores, la fase de análisis trata de responder a la pregunta: 
           b ¿Qué es lo que se debe hacer?, 
-          b-none y esto es necesario entender el problema. Por ello, es preciso relacionar los datos de entrada, salida o resultados con los procesos a ejecutar con esta información y los datos auxiliares que se puedan requerir en las tareas.
+          b-none y esto es necesario para entender el problema. Por ello, es preciso relacionar los datos de entrada, salida o resultados con los procesos a ejecutar con esta información y los datos auxiliares que se puedan requerir en las tareas.
     .row.my-5
       .col-lg-7
         p Hasta este punto parece que esas son las actividades propias del análisis, sin embargo, el éxito de un algoritmo consiste en reducir a cero la brecha de lo que el cliente necesita y los resultados que el algoritmo entrega. Para lograrlo en su totalidad, 
@@ -66,14 +66,14 @@
       |y así determinar sus resultados de salida a partir de una base determinada de elementos en la entrada del proceso.
       br
       br
-      |Como el resultado del proceso de diseño es un algoritmo, es obligatorio saber representarlo de alguna manera, y se empleará inicialmente con la notación de seudocódigo para hacer este tipo de representaciones.
-    .h5 1.2.1. Notación de diseño: seudocódigo
+      |Como el resultado del proceso de diseño es un algoritmo, es obligatorio saber representarlo de alguna manera, y se empleará inicialmente con la notación de pseudocódigo para hacer este tipo de representaciones.
+    .h5 1.2.1. Notación de diseño: pseudocódigo
     .row.mb-3
       .col-lg-4
         figure.mb-5
           img(src='@/assets/curso/img6.jpg', alt='Texto que describa la imagen')
       .col-lg-8
-        p Para expresar el contenido de un programa de computadora, se necesita de un lenguaje de programación que las computadoras pueden interpretar. Sin embargo, se puede expresar ese mismo contenido en el lenguaje natural lengua materna (español), empleando expresiones sencillas que lo simplifican y abrevian. Cuando se emplea esta técnica, se dice que está escrito en seudocódigo.
+        p Para expresar el contenido de un programa de computadora, se necesita de un lenguaje de programación que las computadoras pueden interpretar. Sin embargo, se puede expresar ese mismo contenido en el lenguaje natural lengua materna (español), empleando expresiones sencillas que lo simplifican y abrevian. Cuando se emplea esta técnica, se dice que está escrito en pseudocódigo.
     .cajon--azul.p-4.mb-5.mb-lg-0.mx-5
       .row
         .col-1
@@ -105,7 +105,7 @@
           | &nbsp en anterior análisis se contemplaron los datos de entrada, datos auxiliares (variable) operaciones (impresión en pantalla, lectura de datos e impresión en pantalla de resultados). Pero son muchas las palabras usadas en el análisis por lo tanto lo abreviamos con el siguiente código 	que, posteriormente, se explicará.
         figure.my-5
           img(src='@/assets/curso/img9.png', alt='Texto que describa la imagen' style='width:600px').m-auto
-          figcaption.mt-3 Figura 2. Seudocódigo imprimir un número
+          figcaption.mt-3 Figura 2. pseudocódigo imprimir un número
     p.mb-5 En   
       span.etiqueta--morada ALGORITMO 
       | se indica el nombre del algoritmo, y después se declaran las variables que serán usadas en él (con VAR) indicando su tipo de dato (un valor de tipo  
@@ -175,7 +175,7 @@
           img(src='@/assets/curso/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
           figcaption.mt-3 Figura 3. Metodología de creación de algoritmos
     hr.mb-5
-    p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los pseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias. 
+    p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los ppseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias. 
       br
       br
       b La mayoría de las pruebas de escritorio se representan en una tabla, donde en cada columna se anotan las variables y condiciones si las hay, 

@@ -42,7 +42,7 @@
               p <b>Procesos necesarios: </b>
                 | definir variables; asignar el valor 2 a la constante usando para dividir (divisor); solicitar al usuario el valor de la altura del triángulo; solicitar al usuario el valor de la base; aplicar la fórmula de área; mostrar el resultado.
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/img8.svg')")
-        p El algoritmo resultado del análisis se puede ver en la figura 8, en la que están representados tanto el diagrama de flujo como en seudocódigo, mientras se está aprendiendo a diseñarlos, es importante hacerlos algoritmos en diagrama de flujo y en la medida que se va adquiriendo experticia con la representación de seudocódigo es más conveniente hacer esta representación en razón de la velocidad a la hora de diseñarlo.
+        p El algoritmo resultado del análisis se puede ver en la figura 8, en la que están representados tanto el diagrama de flujo como en pseudocódigo, mientras se está aprendiendo a diseñarlos, es importante hacerlos algoritmos en diagrama de flujo y en la medida que se va adquiriendo experticia con la representación de pseudocódigo es más conveniente hacer esta representación en razón de la velocidad a la hora de diseñarlo.
         .row
           .col-lg-6
             figure.my-5
@@ -52,7 +52,7 @@
               img(src='@/assets/curso/img38.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 10. Diagrama al área de un triángulo
     hr.mb-5
-    p Del diagrama de flujo y el seudocódigo se puede notar lo siguiente: el identificador de área no tiene tilde por la razón antes mencionada, el tipo de dato REAL hace referencia a que es un número que no solamente puede contener un número entero, sino también un valor con cifras decimales.
+    p Del diagrama de flujo y el pseudocódigo se puede notar lo siguiente: el identificador de área no tiene tilde por la razón antes mencionada, el tipo de dato REAL hace referencia a que es un número que no solamente puede contener un número entero, sino también un valor con cifras decimales.
     #t_5_2
     .titulo-segundo.mt-5
       .h4 5.2. Estructura condicional
@@ -112,9 +112,9 @@
               img(src='@/assets/curso/img41.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 11. Estructura condicional doble
     hr.mb-5
-    p En la figura 11 se observa cómo se introduce la calificación por teclado, tanto en el diagrama de flujo (con la representación de trapecio) o el seudocódigo con la preposición 
+    p En la figura 11 se observa cómo se introduce la calificación por teclado, tanto en el diagrama de flujo (con la representación de trapecio) o el pseudocódigo con la preposición 
       b LEER, 
-      b-none luego este valor se compara en un condicional, en el diagrama de flujo con la representación de un rombo, mientras que en el seudocódigo se una la preposición SI, seguido de las preposiciones que se han de ejecutar en caso de que la condición sea verdadera (note que está escrita más a la derecha). También se usa la preposición 
+      b-none luego este valor se compara en un condicional, en el diagrama de flujo con la representación de un rombo, mientras que en el pseudocódigo se una la preposición SI, seguido de las preposiciones que se han de ejecutar en caso de que la condición sea verdadera (note que está escrita más a la derecha). También se usa la preposición 
       b SI NO 
       b-none para identificar el inicio de bloque de instrucciones a ejecutar si no se cumple la condición y la preposición 
       b FINSI 

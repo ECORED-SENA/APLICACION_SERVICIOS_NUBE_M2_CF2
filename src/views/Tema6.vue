@@ -8,7 +8,7 @@
       .h3 Estructura de datos
     figure.mb-5
       img(src='@/assets/curso/img52.jpg', alt='Texto que describa la imagen')
-    p.mb-5 Es importante conocer el concepto de arreglos e identificar cuándo usarlos en la aplicación en los algoritmos. Así mismo, ser capaz de resolver problemas básicos mediante diagramas de flujo y seudocódigo. De otra parte, existen varios tipos de arreglos y de estos los más comunes son los vectores y las matrices. 
+    p.mb-5 Es importante conocer el concepto de arreglos e identificar cuándo usarlos en la aplicación en los algoritmos. Así mismo, ser capaz de resolver problemas básicos mediante diagramas de flujo y pseudocódigo. De otra parte, existen varios tipos de arreglos y de estos los más comunes son los vectores y las matrices. 
     #t_6_1
     .titulo-segundo
       .h4 6.1.  Vectores
