@@ -175,7 +175,7 @@
           img(src='@/assets/curso/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
           figcaption.mt-3 Figura 3. Metodología de creación de algoritmos
     hr.mb-5
-    p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los ppseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias. 
+    p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los pseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias. 
       br
       br
       b La mayoría de las pruebas de escritorio se representan en una tabla, donde en cada columna se anotan las variables y condiciones si las hay, 
