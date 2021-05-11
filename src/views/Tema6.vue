@@ -90,7 +90,7 @@
               img(src='@/assets/curso/img57.svg', alt='Texto que describa la imagen' )
               figcaption.mt-3 Figura 18 - Vector de 5 elementos
     hr.mb-5
-    .titulo-segundo
+    #t_6_2.titulo-segundo
       .h4 6.2. Matrices
     p.mb-5 Las matrices son arreglos de más de una dimensión, en la siguiente figura se presenta un ejemplo de una matriz de 2 dimensiones que son 4x5 (correspondiente a 4 columnas y 5 filas). 
     .row
