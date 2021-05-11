@@ -180,7 +180,10 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Henry Eduardo Bastidas Paruma', 'Jonathan Guerrero Astaiza'],
+        nombre: [
+          'Henry Eduardo Bastidas Paruma',
+          'Peter Emerson Pinchao Solis',
+        ],
         cargo: 'Expertos temáticos',
         centro: 'Centro de teleinformática y producción industrial',
         regional: 'Regional Cauca',
@@ -209,8 +212,12 @@ export default {
       },
       {
         nombre: [
+          'Angela María Maldonado Jaime',
           'Camilo Andrés Villamizar Lizcano',
           'Juan Daniel Polanco Muñoz',
+          'Gilberto Junior Rodríguez',
+          'Wilson Andrés Arenales Cáceres',
+          'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Diseño web y Producción Audiovisual',
       },
@@ -222,7 +229,7 @@ export default {
       },
       {
         nombre: ['Marcela Gómez Tarazona'],
-        cargo: 'Revisora de contenido',
+        cargo: 'Revisora de contenidos',
         centro: 'Centro Industrial Del Diseño Y La Manufactura ',
         regional: 'Regional Santander',
       },
