@@ -170,13 +170,13 @@ export default {
   creditos: {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
+      cargo: 'Líder del Equipo',
     },
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro industrial del diseño y la manufactura',
+        cargo: 'Asesor Metodológico y Pedagógico',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
@@ -185,30 +185,30 @@ export default {
           'Peter Emerson Pinchao Solis',
         ],
         cargo: 'Expertos temáticos',
-        centro: 'Centro de teleinformática y producción industrial',
+        centro: 'Centro de Teleinformática y Producción Industrial',
         regional: 'Regional Cauca',
       },
       {
         nombre: ['Oscar Absalón Guevara'],
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro de gestión industrial',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Gestión Industrial',
         regional: 'Regional Bogotá',
       },
       {
         nombre: ['José Gabriel Ortiz Abella'],
         cargo: 'Corrector de Estilo',
-        centro: 'Centro para la industria y la comunicación gráfica',
+        centro: 'Centro para la Industria y la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable del Equipo',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
+        cargo: 'Soporte Organizacional',
       },
       {
         nombre: [
@@ -219,7 +219,7 @@ export default {
           'Wilson Andrés Arenales Cáceres',
           'Zuleidy Maria Ruiz Torres',
         ],
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Diseño Web y Producción Audiovisual',
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
@@ -229,7 +229,7 @@ export default {
       },
       {
         nombre: ['Marcela Gómez Tarazona'],
-        cargo: 'Revisora de contenidos',
+        cargo: 'Revisora de Contenidos',
         centro: 'Centro Industrial Del Diseño Y La Manufactura ',
         regional: 'Regional Santander',
       },
@@ -238,7 +238,7 @@ export default {
       {
         nombre: ['Milady Tatiana Villamil Castellanos'],
         cargo: ['Validación de recursos'],
-        centro: 'CENTRO DE COMERCIO Y SERVICIOS ',
+        centro: 'Centro de Comercio y Servicios ',
         regional: 'Regional Tolima',
       },
     ],
