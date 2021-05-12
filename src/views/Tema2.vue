@@ -13,7 +13,7 @@
     figure.my-5
       img(src='@/assets/curso/img13.png', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 5. Diagrama de flujo imprimir un entero
-    p.mb-3 Es ideal revisar el siguiente vídeo sobre la representación gráfica de un algoritmo a través del diagrama de flujo: 
+    p.mb-3 Es ideal revisar la siguiente infografia sobre las ventajas de la representación gráfica de un algoritmo a través del diagrama de flujo: 
     .tarjeta.tarjeta--gris.p-4.p-md-5.mt-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
