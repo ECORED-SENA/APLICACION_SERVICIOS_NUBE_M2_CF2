@@ -23,7 +23,7 @@
             .h2 Ventajas de los diagramas de flujo
           p.mb-4 
 
-          a.boton.boton--a(:href="obtenerLink('/downloads/Infografia_Prueba_de_Escritorio.pdf')" target="_blank" type="application/pdf")
+          a.boton.boton--a(:href="obtenerLink('/downloads/Infografia_ventajas_diagrama_de_flujo.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     p.mb-5 La representación del algoritmo de la fi
