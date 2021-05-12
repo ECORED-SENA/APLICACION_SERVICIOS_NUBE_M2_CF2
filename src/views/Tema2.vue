@@ -13,7 +13,7 @@
     figure.my-5
       img(src='@/assets/curso/img13.png', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 5. Diagrama de flujo imprimir un entero
-    p.mb-5 Es ideal revisar el siguiente vídeo sobre la representación gráfica de un algoritmo a través del diagrama de flujo: 
+    p.mb-3 Es ideal revisar el siguiente vídeo sobre la representación gráfica de un algoritmo a través del diagrama de flujo: 
     .tarjeta.tarjeta--gris.p-4.p-md-5.mt-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
@@ -26,8 +26,7 @@
           a.boton.boton--a(:href="obtenerLink('/downloads/Infografia_ventajas_diagrama_de_flujo.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
-    p.mb-5 La representación del algoritmo de la fi
-    gura 3 (algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados el cubo y el cuadrado) es:
+    p.mb-3 La representación del algoritmo de la figura 3 (algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados el cubo y el cuadrado es:
     figure.my-5
       img(src='@/assets/curso/img14.svg', alt='Texto que describa la imagen')
       figcaption.mt-3 Figura 6. Diagrama de flujo imprimir el cuadrado y el cubo de un entero
